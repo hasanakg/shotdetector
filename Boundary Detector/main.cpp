@@ -7,12 +7,15 @@
 //
 
 #include <iostream>
+#include "pixel.h"
+
+using namespace std;
+using namespace cv;
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    PixelDifference pixelDif("/Users/hasanakg/Downloads/video_seq/", 50170);
+    pixelDif.exportToFile();
+    
     return 0;
 }
-
