@@ -8,14 +8,16 @@
 
 #include <iostream>
 #include "pixel.h"
-
+#include "edge.h"
 using namespace std;
 using namespace cv;
 
 int main(int argc, const char * argv[])
 {
-    PixelDifference pixelDif("/Users/hasanakg/Downloads/video_seq/", 50170);
-    pixelDif.exportToFile();
+//    PixelDifference pixelDif("/Users/hasanakg/Downloads/video_seq/", 50170);
+//    pixelDif.exportToFile();
+    EdgeChangeRatio edge("/Users/hasanakg/Downloads/video_seq/", -53);
+    edge.exportToFile();
     
     return 0;
 }

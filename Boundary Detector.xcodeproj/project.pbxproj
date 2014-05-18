@@ -27,6 +27,7 @@
 		2D16765B19291DE000884246 /* libopencv_video.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16764A19291DE000884246 /* libopencv_video.2.4.8.dylib */; };
 		2D16765C19291DE000884246 /* libopencv_videostab.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16764B19291DE000884246 /* libopencv_videostab.2.4.8.dylib */; };
 		2DC72EA1192920FA00EADA60 /* pixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC72EA0192920FA00EADA60 /* pixel.cpp */; };
+		2DC72EA419292DB500EADA60 /* edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DC72EA319292DB500EADA60 /* edge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,8 @@
 		2D16764B19291DE000884246 /* libopencv_videostab.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.8.dylib; path = ../../../../../../opt/local/lib/libopencv_videostab.2.4.8.dylib; sourceTree = "<group>"; };
 		2DC72E9F1929202300EADA60 /* pixel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pixel.h; sourceTree = "<group>"; };
 		2DC72EA0192920FA00EADA60 /* pixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pixel.cpp; sourceTree = "<group>"; };
+		2DC72EA219292CC100EADA60 /* edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = edge.h; sourceTree = "<group>"; };
+		2DC72EA319292DB500EADA60 /* edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = edge.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				2D167634192919A400884246 /* Boundary_Detector.1 */,
 				2DC72E9F1929202300EADA60 /* pixel.h */,
 				2DC72EA0192920FA00EADA60 /* pixel.cpp */,
+				2DC72EA219292CC100EADA60 /* edge.h */,
+				2DC72EA319292DB500EADA60 /* edge.cpp */,
 			);
 			path = "Boundary Detector";
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			files = (
 				2DC72EA1192920FA00EADA60 /* pixel.cpp in Sources */,
 				2D167633192919A400884246 /* main.cpp in Sources */,
+				2DC72EA419292DB500EADA60 /* edge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
